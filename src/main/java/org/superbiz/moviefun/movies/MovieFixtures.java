@@ -2,14 +2,14 @@ package org.superbiz.moviefun.movies;
 
 import org.springframework.stereotype.Component;
 
-import java.util.List;
+import java.util.Collection;
 
 import static java.util.Arrays.asList;
 
 @Component
 public class MovieFixtures {
 
-    public List<Movie> load() {
+    public Collection<Movie> load() {
         return asList(
             new Movie("Wedding Crashers", "David Dobkin", "Comedy", 7, 2005),
             new Movie("Starsky & Hutch", "Todd Phillips", "Action", 6, 2004),
